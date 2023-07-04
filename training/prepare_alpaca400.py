@@ -14,7 +14,7 @@ sys.path.append(str(wd))
 
 from lit_gpt.tokenizer import Tokenizer
 
-DATA_FILE_URL = "https://raw.githubusercontent.com/thanhnew2001/pokemon/main/alpaca400.json"
+DATA_FILE_URL = "https://raw.githubusercontent.com/thanhnew2001/pokemon/main/training/alpaca400.json"
 DATA_FILE_NAME = "alpaca400.json"
 DESTINATION_PATH = Path("data/mydata")
 CHECKPOINT_DIR = Path("checkpoints/tiiuae/falcon-7b")
