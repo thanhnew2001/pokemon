@@ -29,8 +29,8 @@ app = Flask(__name__)
 
 prompt = "What food do lamas eat?"
 user_input = ""
-adapter_path = Path("out/adapter_v2/alpaca/lit_model_adapter_finetuned.pth")
-checkpoint_dir = Path(f"checkpoints/stabilityai/stablelm-base-alpha-3b")
+adapter_path = Path("out/adapter/alpaca/lit_model_adapter_finetuned.pth")
+checkpoint_dir = Path(f"checkpoints/tieeuae/falcon-7b")
 quantize = None
 max_new_tokens = 100
 top_k = 200
