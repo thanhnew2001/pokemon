@@ -25,8 +25,8 @@ from scripts.prepare_alpaca import generate_prompt
 def main(
     prompt: str = "What food do lamas eat?",
     user_input: str = "",
-    adapter_path: Path = Path("data/mydata-finetuned/lit_model_adapter_finetuned.pth"),
-    checkpoint_dir: Path = Path(f"checkpoints/stabilityai/stablelm-base-alpha-3b"),
+    adapter_path: Path = Path("out/data/alpaca/lit_model_adapter_finetuned.pth"),
+    checkpoint_dir: Path = Path(f"checkpoints/tiiuae/falcon-7b"),
     quantize: Literal["llm.int8", "gptq.int4"] = None,
     max_new_tokens: int = 100,
     top_k: int = 200,
