@@ -188,7 +188,7 @@ def load_param(param: Union[torch.Tensor, NotYetLoadedTensor], dtype: torch.dtyp
 @torch.inference_mode()
 def convert_hf_checkpoint(
     *,
-    checkpoint_dir: Path = Path("checkpoints/stabilityai/stablelm-base-alpha-3b"),
+    checkpoint_dir: Path = Path("checkpoints/tiiuae/falcon-7b"),
     model_name: Optional[str] = None,
     dtype: str = "float32",
 ) -> None:
