@@ -31,15 +31,15 @@ override_max_seq_length = None
 
 # Hyperparameters
 learning_rate = 3e-3
-batch_size = 32 / devices
-micro_batch_size = 1
+batch_size = 64 / devices
+micro_batch_size = 2
 gradient_accumulation_iters = batch_size // micro_batch_size
 assert gradient_accumulation_iters > 0
-epoch_size = 500  # train dataset size
+epoch_size = 400  # train dataset size
 num_epochs = 1
 max_iters = num_epochs * (epoch_size // micro_batch_size) // devices
 weight_decay = 0.02
-warmup_steps = 2 * (epoch_size // micro_batch_size) // devices // gradient_accumulation_iters # 2 epochs
+warmup_steps = 2 * (epoch_size // micro_batch_size) // devices // gradient_accumulation_steps # 2 epochs
 
 hparams = {k: v for k, v in locals().items() if isinstance(v, (int, float, str)) and not k.startswith("_")}
 
@@ -47,7 +47,7 @@ hparams = {k: v for k, v in locals().items() if isinstance(v, (int, float, str))
 def setup(
     data_dir: Path = Path("data/mydata"),
     checkpoint_dir: Path = Path("checkpoints/tiiuae/falcon-7b"),
-    out_dir: Path = Path("out/adapter/alpaca400"),
+    out_dir: Path = Path("out/adapter/alpaca"),
     precision: Optional[str] = None,
     tpu: bool = False,
 ):
@@ -292,7 +292,7 @@ def save_adapter_checkpoint(fabric, model, file_path: Path):
 if __name__ == "__main__":
     # Uncomment this line if you see an error: "Expected is_sm80 to be true, but got false"
     # torch.backends.cuda.enable_flash_sdp(False)
-    torch.set_float32_matmul_precision("medium")
+    torch.set_float32_matmul_precision("high")
 
     from jsonargparse.cli import CLI
 
