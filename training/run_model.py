@@ -97,7 +97,7 @@ def main(
     max_new_tokens: int = 50,
     top_k: int = 200,
     temperature: float = 0.8,
-    checkpoint_dir: Path = Path(f"checkpoints/stabilityai/stablelm-base-alpha-3b"),
+    checkpoint_dir: Path = Path(f"checkpoints/tiiuae/falcon-7b"),
     quantize: Literal["llm.int8", "gptq.int4"] = None,
     strategy: str = "auto",
     devices: int = 1,
