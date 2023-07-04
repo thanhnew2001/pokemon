@@ -46,7 +46,7 @@ hparams = {k: v for k, v in locals().items() if isinstance(v, (int, float, str))
 
 def setup(
     data_dir: Path = Path("data/mydata"),
-    checkpoint_dir: Path = Path("checkpoints/tiieua/falcon-7b"),
+    checkpoint_dir: Path = Path("checkpoints/tiiuae/falcon-7b"),
     out_dir: Path = Path("out/adapter/alpaca400"),
     precision: Optional[str] = None,
     tpu: bool = False,
