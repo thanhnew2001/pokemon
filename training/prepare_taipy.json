@@ -1,0 +1,552 @@
+[
+  {
+    "instruction": "Plot Sales according to Date in a line chart",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|>"
+  },
+  {
+    "instruction": "Display the sales trend over time using a line chart.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|>"
+  },
+  {
+    "instruction": "Create a graphical representation of sales data based on dates using a line chart.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|>"
+  },
+  {
+    "instruction": "Depict the fluctuation in sales over different dates using a line chart.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|>"
+  },
+  {
+    "instruction": "Illustrate the correlation between dates and sales through a line chart.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|>"
+  },
+  {
+    "instruction": "Generate a visual representation of the sales progression over time using a line chart.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|>"
+  },
+  {
+    "instruction": "Chart the variation in sales with respect to dates using a line graph.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|>"
+  },
+  {
+    "instruction": "Present the sales data in a line chart format, organized by date.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|>"
+  },
+  {
+    "instruction": "Plot the sales figures on a line chart, arranged chronologically.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|>"
+  },
+  {
+    "instruction": "Visualize the sales pattern based on dates using a line chart.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|>"
+  },
+  {
+    "instruction": "Construct a line chart that showcases the sales data as it evolves over different dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|>"
+  },
+  {
+    "instruction": "Plot Sales according to Date in a line chart titled \"\"Sales according to Revenue\"\"",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|title=Sales according to Revenue|>"
+  },
+  {
+    "instruction": "Create a line chart titled \"Sales according to Revenue\" that showcases the correlation between sales and dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|title=Sales according to Revenue|>"
+  },
+  {
+    "instruction": "Develop a graphical representation, titled \"Sales according to Revenue,\" displaying the relationship between sales and their corresponding dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|title=Sales according to Revenue|>"
+  },
+  {
+    "instruction": "Generate a line chart with the title \"Sales according to Revenue,\" illustrating the progression of sales over time.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|title=Sales according to Revenue|>"
+  },
+  {
+    "instruction": "Construct a visual graph titled \"Sales according to Revenue\" that portrays the sales data organized by date.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|title=Sales according to Revenue|>"
+  },
+  {
+    "instruction": "Design a line chart entitled \"Sales according to Revenue,\" demonstrating the variation in sales based on different dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|title=Sales according to Revenue|>"
+  },
+  {
+    "instruction": "Produce a graphical depiction, labeled \"Sales according to Revenue,\" that exhibits the connection between sales figures and their associated dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|title=Sales according to Revenue|>"
+  },
+  {
+    "instruction": "Generate a line chart titled \"Sales according to Revenue,\" graphically representing the sales data across different dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|title=Sales according to Revenue|>"
+  },
+  {
+    "instruction": "Create a visual representation in the form of a line chart titled \"Sales according to Revenue,\" showcasing the sales trends in relation to their respective dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|title=Sales according to Revenue|>"
+  },
+  {
+    "instruction": "Develop a line chart with the heading \"Sales according to Revenue,\" illustrating the sales data categorized by the corresponding dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|title=Sales according to Revenue|>"
+  },
+  {
+    "instruction": "Construct a graphical representation titled \"Sales according to Revenue,\" displaying the sales information according to their corresponding dates in a line chart format.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|title=Sales according to Revenue|>"
+  },
+  {
+    "instruction": "Plot Sales and Revenue according to Date",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|>"
+  },
+  {
+    "instruction": "Create a line chart that displays the relationship between sales, revenue, and dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|>"
+  },
+  {
+    "instruction": "Generate a graphical representation showcasing the correlation between sales, revenue, and their corresponding dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|>"
+  },
+  {
+    "instruction": "Develop a chart illustrating the progression of sales and revenue over time, organized by date.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|>"
+  },
+  {
+    "instruction": "Construct a visual graph portraying the variation in sales and revenue based on different dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|>"
+  },
+  {
+    "instruction": "Design a line chart that demonstrates the connection between sales, revenue, and their associated dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|>"
+  },
+  {
+    "instruction": "Produce a graphical depiction showing the trends of sales and revenue in relation to their respective dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|>"
+  },
+  {
+    "instruction": "Generate a line chart graphically representing the sales and revenue data across different dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|>"
+  },
+  {
+    "instruction": "Create a visual representation in the form of a line chart, showcasing the trends of sales and revenue according to their respective dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|>"
+  },
+  {
+    "instruction": "Develop a line chart illustrating the sales and revenue data categorized by the corresponding dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|>"
+  },
+  {
+    "instruction": "Construct a graphical representation displaying the sales and revenue information according to their corresponding dates in a line chart format.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|>"
+  },
+  {
+    "instruction": "Plot Sales according to Date on a Dashed line;",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dash|>"
+  },
+  {
+    "instruction": "Generate a line chart with dashed lines, depicting the relationship between sales and dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dash|>"
+  },
+  {
+    "instruction": "Create a graph displaying sales data over time, utilizing dashed lines to connect the data points.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dash|>"
+  },
+  {
+    "instruction": "Develop a line chart that showcases the fluctuation of sales based on dates, utilizing dashed lines.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dash|>"
+  },
+  {
+    "instruction": "Construct a visual representation with dashed lines, illustrating the correlation between sales and their corresponding dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dash|>"
+  },
+  {
+    "instruction": "Design a chart with dashed lines, specifically highlighting the progression of sales over different dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dash|>"
+  },
+  {
+    "instruction": "Produce a graphical depiction utilizing dashed lines to indicate the connection between sales and their associated dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dash|>"
+  },
+  {
+    "instruction": "Generate a line chart with dotted lines, graphically representing the sales data across different dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dash|>"
+  },
+  {
+    "instruction": "Create a visual representation in the form of a dashed line chart, showcasing the trends of sales according to their respective dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dash|>"
+  },
+  {
+    "instruction": "Develop a line chart with dashed lines, visually indicating the sales data categorized by the corresponding dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dash|>"
+  },
+  {
+    "instruction": "Construct a graphical representation displaying the sales information according to their corresponding dates in a line chart format, with dashed lines connecting the data points.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dash|>"
+  },
+  {
+    "instruction": "Plot Revenue by Date on a dotted line",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dot|>"
+  },
+  {
+    "instruction": "Generate a line chart with dotted lines, illustrating the revenue trend over different dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dot|>"
+  },
+  {
+    "instruction": "Create a graph showcasing revenue data over time, utilizing dotted lines to connect the data points.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dot|>"
+  },
+  {
+    "instruction": "Develop a line chart that represents the fluctuation of revenue based on dates, using dotted lines for clarity.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dot|>"
+  },
+  {
+    "instruction": "Construct a visual representation with dotted lines, displaying the correlation between revenue and their corresponding dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dot|>"
+  },
+  {
+    "instruction": "Design a chart with dotted lines, specifically highlighting the progression of revenue over different dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dot|>"
+  },
+  {
+    "instruction": "Produce a graphical depiction utilizing dotted lines to indicate the connection between revenue and their associated dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dot|>"
+  },
+  {
+    "instruction": "Generate a line chart with dotted lines, graphically representing the revenue data across different dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dot|>"
+  },
+  {
+    "instruction": "Create a visual representation in the form of a dotted line chart, showcasing the trends of revenue according to their respective dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dot|>"
+  },
+  {
+    "instruction": "Develop a line chart with dotted lines, visually indicating the revenue data categorized by the corresponding dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dot|>"
+  },
+  {
+    "instruction": "Construct a graphical representation displaying the revenue information according to their corresponding dates in a line chart format, with dotted lines connecting the data points.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|line=dot|>"
+  },
+  {
+    "instruction": "Plot Sales by Date in Red",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Red|>"
+  },
+  {
+    "instruction": "Generate a line chart in which sales data is plotted against dates, using the color red.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Red|>"
+  },
+  {
+    "instruction": "Create a graph showcasing the correlation between sales and dates, with the sales line depicted in the color red.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Red|>"
+  },
+  {
+    "instruction": "Develop a line chart that visually represents the fluctuation of sales over time, utilizing the color red for clarity.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Red|>"
+  },
+  {
+    "instruction": "Construct a visual representation with sales plotted against dates, using the color red to highlight the sales data.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Red|>"
+  },
+  {
+    "instruction": "Design a chart where the sales trend is illustrated by a red line against the timeline of dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Red|>"
+  },
+  {
+    "instruction": "Produce a graphical depiction in which sales are graphed against their corresponding dates, using the color red for emphasis.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Red|>"
+  },
+  {
+    "instruction": "Generate a line chart where the sales data is graphically represented in red, indicating the relationship with dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Red|>"
+  },
+  {
+    "instruction": "Create a visual representation in the form of a line chart, showcasing the sales trends over different dates, with the line displayed in red.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Red|>"
+  },
+  {
+    "instruction": "Develop a line chart where sales are plotted against dates, with the sales line color-coded as red for easy identification.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Red|>"
+  },
+  {
+    "instruction": "Construct a graphical representation displaying the sales information according to their corresponding dates in a line chart format, with the line representing sales shown in the color red.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Red|>"
+  },
+  {
+    "instruction": "Plot Revenue according to Date in yellow",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|>"
+  },
+  {
+    "instruction": "Generate a line chart in which revenue data is plotted against dates, using the color yellow.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|>"
+  },
+  {
+    "instruction": "Create a graph showcasing the correlation between revenue and dates, with the revenue line depicted in the color yellow.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|>"
+  },
+  {
+    "instruction": "Develop a line chart that visually represents the fluctuation of revenue over time, utilizing the color yellow for clarity.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|>"
+  },
+  {
+    "instruction": "Construct a visual representation with revenue plotted against dates, using the color yellow to highlight the revenue data.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|>"
+  },
+  {
+    "instruction": "Design a chart where the revenue trend is illustrated by a yellow line against the timeline of dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|>"
+  },
+  {
+    "instruction": "Produce a graphical depiction in which revenue is graphed against their corresponding dates, using the color yellow for emphasis.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|>"
+  },
+  {
+    "instruction": "Generate a line chart where the revenue data is graphically represented in yellow, indicating the relationship with dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|>"
+  },
+  {
+    "instruction": "Create a visual representation in the form of a line chart, showcasing the revenue trends over different dates, with the line displayed in yellow.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|>"
+  },
+  {
+    "instruction": "Develop a line chart where revenue is plotted against dates, with the revenue line color-coded as yellow for easy identification.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|>"
+  },
+  {
+    "instruction": "Construct a graphical representation displaying the revenue information according to their corresponding dates in a line chart format, with the line representing revenue shown in the color yellow.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|>"
+  },
+  {
+    "instruction": "Plot Revenue according to Date in yellow titled Revenue Plot",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Generate a line chart titled \"Revenue Plot,\" illustrating the relationship between revenue and dates, with revenue plotted in yellow.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Create a graph titled \"Revenue Plot\" that visually represents the correlation between revenue and dates, with a yellow line indicating the revenue trend.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Develop a line chart titled \"Revenue Plot\" that showcases the fluctuation of revenue over time, using the color yellow for clarity.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Construct a visual representation titled \"Revenue Plot\" with revenue plotted against dates, highlighting the revenue data in yellow.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Design a chart titled \"Revenue Plot\" where the revenue trend is illustrated by a yellow line against the timeline of dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Produce a graphical depiction titled \"Revenue Plot\" in which revenue is graphed against their corresponding dates, utilizing the color yellow for emphasis.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Generate a line chart titled \"Revenue Plot\" where the revenue data is graphically represented in yellow, indicating the relationship with dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Create a visual representation titled \"Revenue Plot\" in the form of a line chart, showcasing the revenue trends over different dates, with the line displayed in yellow.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Develop a line chart titled \"Revenue Plot\" where revenue is plotted against dates, with the revenue line color-coded as yellow for easy identification.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Construct a graphical representation titled \"Revenue Plot\" displaying the revenue information according to their corresponding dates in a line chart format, with the line representing revenue shown in the color yellow.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Plot Sales in blue and Revenue in green according to Date",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Generate a line chart where sales data is plotted in blue and revenue data is plotted in green against dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Create a graph illustrating the correlation between sales and revenue, with sales represented in blue and revenue in green, plotted against dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Develop a line chart that visually displays the fluctuation of both sales and revenue over time, using blue for sales and green for revenue, against the corresponding dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Construct a visual representation with sales plotted in blue and revenue in green, showcasing the relationship between the two metrics over different dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Design a chart where the sales trend is represented by a blue line and the revenue trend by a green line against the timeline of dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Produce a graphical depiction where sales and revenue are graphed in blue and green, respectively, against their corresponding dates, highlighting their respective trends.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Generate a line chart where the sales data is graphically represented in blue and the revenue data in green, indicating their relationship with dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Create a visual representation in the form of a line chart, showcasing the trends of sales and revenue over different dates, with the sales line displayed in blue and the revenue line in green.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Develop a line chart where sales are plotted in blue and revenue in green, visually indicating the performance of both metrics categorized by the corresponding dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Construct a graphical representation displaying the sales and revenue information according to their corresponding dates in a line chart format, with the sales line shown in blue and the revenue line shown in green.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y=Sales|color=Yellow|title=Revenue Plot>"
+  },
+  {
+    "instruction": "Plot Sales in blue and Revenue in green according to Date",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|color[1]=blue|color[2]=green|>"
+  },
+  {
+    "instruction": "enerate a line chart displaying sales data in blue and revenue data in green, plotted against dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|color[1]=blue|color[2]=green|>"
+  },
+  {
+    "instruction": "Create a graph that showcases the relationship between sales and revenue, with sales represented by a blue line and revenue by a green line, plotted against dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|color[1]=blue|color[2]=green|>"
+  },
+  {
+    "instruction": "Develop a line chart that visually depicts the fluctuation of sales and revenue over time, using blue for sales and green for revenue, with dates on the x-axis.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|color[1]=blue|color[2]=green|>"
+  },
+  {
+    "instruction": "Construct a visual representation with sales plotted in blue and revenue plotted in green, illustrating the correlation between the two metrics over different dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|color[1]=blue|color[2]=green|>"
+  },
+  {
+    "instruction": "Design a chart where the sales trend is presented by a blue line and the revenue trend by a green line, plotted against the timeline of dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|color[1]=blue|color[2]=green|>"
+  },
+  {
+    "instruction": "Produce a graphical representation that graphs sales in blue and revenue in green, respectively, against their corresponding dates, highlighting their individual trends.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|color[1]=blue|color[2]=green|>"
+  },
+  {
+    "instruction": "Generate a line chart that graphically represents sales data in blue and revenue data in green, highlighting the relationship between the two metrics with respect to dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|color[1]=blue|color[2]=green|>"
+  },
+  {
+    "instruction": "Create a visual representation in the form of a line chart that showcases the trends of sales and revenue over different dates, with sales displayed in blue and revenue in green.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|color[1]=blue|color[2]=green|>"
+  },
+  {
+    "instruction": "Develop a line chart that plots sales in blue and revenue in green, providing a visual representation of their performance over time in relation to dates.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|color[1]=blue|color[2]=green|>"
+  },
+  {
+    "instruction": "Construct a graphical representation that displays the sales and revenue information according to their corresponding dates in a line chart format, with sales depicted in blue and revenue in green.",
+    "input": "",
+    "output": "<|{transformed_data}|chart|type=lines|x=Date|y[1]=Sales|y[2]=Revenue|color[1]=blue|color[2]=green|>"
+  }
+]
