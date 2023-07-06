@@ -1,47 +1,47 @@
 [
 
  {
-    "instruction": "Tên bản án là gì",
+    "instruction": "Tên bản án là gì Bản án số: 168/2023/DS-PT Ngày: 12-5-2023",
     "input": "",
      "output": "Bản án số: 168/2023/DS-PT Ngày: 12-5-2023 “V/v tranh chấp hợp đồng thi công xây dựng công trình nhà ở” CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc"
   },
   {
-    "instruction": "Hội đồng xét xử gồm những ai",
+    "instruction": "Hội đồng xét xử gồm những ai Bản án số: 168/2023/DS-PT Ngày: 12-5-2023",
     "input": "",
      "output": "Thành phần Hội đồng xét xử phúc thẩm gồm có: Thẩm phán – Chủ tọa phiên tòa: Ông Nguyễn Văn Cảnh. Các Thẩm phán: 1. Ông Trần Văn Quán. 2. Ông Trần Tấn Quốc."
   },
   {
-    "instruction": "Ai là nguyên đơn",
+    "instruction": "Ai là nguyên đơn Bản án số: 168/2023/DS-PT Ngày: 12-5-2023",
     "input": "",
     "output": "Nguyên đơn: Bà Đinh Mỹ B, sinh năm 1979. Địa chỉ: 397, ấp Thạnh Lợi, xã X, huyện Y, tỉnh Long An."
   },
   {
-    "instruction": "Ai là bị đơn",
+    "instruction": "Ai là bị đơn Bản án số: 168/2023/DS-PT Ngày: 12-5-2023",
     "input": "",
     "output": "Bị đơn: Ông Cao Văn A, sinh năm 1955. Địa chỉ: 138B, ấp Bình Lợi, xã X, huyện Y, tỉnh Long An."
   },
   {
-    "instruction": "Ai là đại diện Viện kiểm sát",
+    "instruction": "Ai là đại diện Viện kiểm sát Bản án số: 168/2023/DS-PT Ngày: 12-5-2023",
     "input": "",
     "output": "Đại diện Viện kiểm sát nhân dân tỉnh Long An tham gia phiên tòa: Bà Nguyễn Thị Kim Chung – Kiểm sát viên."
   },
   {
-    "instruction": "Ai là thư ký toà",
+    "instruction": "Ai là thư ký toà Bản án số: 168/2023/DS-PT Ngày: 12-5-2023",
     "input": "",
     "output": "Thư ký phiên tòa: Bà Đặng Thị Kim Thanh – Thẩm tra viên Tòa án nhân dân tỉnh Long An."
   },
   {
-    "instruction": "Nội dung vụ án theo trình bày của nguyên đơn",
+    "instruction": "Nội dung vụ án theo trình bày của nguyên đơn Bản án số: 168/2023/DS-PT Ngày: 12-5-2023",
     "input": "",
     "output": ""
   },
   {
-    "instruction": "Nội dung vụ án theo trình bày của bị đơn",
+    "instruction": "Nội dung vụ án theo trình bày của bị đơn Bản án số: 168/2023/DS-PT Ngày: 12-5-2023",
     "input": "",
      "output": ""
   },
   {
-    "instruction": "\bLập luận của luật sư bảo vệ quyền lợi của bị đơn",
+    "instruction": "\bLập luận của luật sư bảo vệ quyền lợi của bị đơn Bản án số: 168/2023/DS-PT Ngày: 12-5-2023",
     "input": "",
     "output": ""
   }
