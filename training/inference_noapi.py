@@ -113,8 +113,8 @@ print(prompt)
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%time
-pipeline(prompt,generation_config = generation_config)
-
+result = pipeline(prompt,generation_config = generation_config)
+print(result)
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%time
