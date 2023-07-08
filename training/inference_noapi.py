@@ -132,7 +132,7 @@ print(prompt)
 
 def ask(message):
   prompt = f"""
-<human>Xin chào tôi tên là DICA.Câu hỏi của tôi là {message}
+<human>Câu hỏi của tôi là {message}
 <assistant>:
 """.strip()
   device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -141,10 +141,11 @@ def ask(message):
   with torch.inference_mode():
     outputs = model.generate(input_ids = encoding.input_ids, attention_mask = encoding.attention_mask,
                             generation_config = generation_config)
+    print(outputs)
 
-    result = tokenizer.decode(outputs[0],skip_special_token = True)
-  return result
+    #result = tokenizer.decode(outputs[0],skip_special_token = True)
+  #return result
 	
 answer = ask("Chào bác sĩ, Mẹ em 42 tuổi gần đây hay mệt mỏi, khó thở, đo nhịp tim 52 nhịp/ phút chậm so với người bình thường. Đi chụp tim không sao nhưng chụp thấy có vết mờ ở phổi. Vậy bác sĩ cho em hỏi chụp X quang phổi thấy có vết mờ là dấu hiệu bệnh gì? Em cảm ơn bác sĩ.")
-print(answer)
+
 
