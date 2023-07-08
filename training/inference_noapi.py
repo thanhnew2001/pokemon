@@ -105,10 +105,15 @@ pipeline = pipeline(model = model, tokenizer = tokenizer, task = 'text-generatio
 * `Expected Answer` : 'Chào bạn, Với câu hỏi “Chụp X quang phổi thấy có vết mờ là dấu hiệu bệnh gì?”, bác sĩ xin giải đáp như sau: Theo như các triệu chứng bạn mô tả bệnh của người nhà, tốt nhất bạn nên đưa người nhà khám chuyên khoa Tim mạch và Hô hấp. Các bác sĩ cần thăm khám bệnh nhân, kết hợp xem phim, điện tim,.... từ đó mới có thể đưa ra chẩn đoán bệnh cho người nhà. Nếu bạn còn thắc mắc về chụp X quang phổi thấy có vết mờ, bạn có thể đến bệnh viện để kiểm tra và tư vấn thêm. Cảm ơn bạn đã đặt câu hỏi cho DICA. Chúc bạn có thật nhiều sức khỏe. Trân trọng!'
 """
 
-prompt = f"""
-<human>  Chào bác sĩ, Mẹ em 42 tuổi gần đây hay mệt mỏi, khó thở, đo nhịp tim 52 nhịp/ phút chậm so với người bình thường. Đi chụp tim không sao nhưng chụp thấy có vết mờ ở phổi. Vậy bác sĩ cho em hỏi chụp X quang phổi thấy có vết mờ là dấu hiệu bệnh gì? Em cảm ơn bác sĩ.
-<assistant>:
-""".strip()
+prompt = "Chào bác sĩ, Mẹ em 42 tuổi gần đây hay mệt mỏi, khó thở, đo nhịp tim 52 nhịp/ phút chậm so với người bình thường. Đi chụp tim không sao nhưng chụp thấy có vết mờ ở phổi. Vậy bác sĩ cho em hỏi chụp X quang phổi thấy có vết mờ là dấu hiệu bệnh gì? Em cảm ơn bác sĩ"
+print(prompt)
+
+# Commented out IPython magic to ensure Python compatibility.
+# %%time
+result = pipeline(prompt,generation_config = generation_config)
+print(result)
+
+prompt = "Bé nhà mình sinh ngày 24/06/2018. Lúc 19 tháng bé có thể gọi mẹ, ba, cha, bà, bò, ếch, chanh! Nhưng gần 5 tháng nay bé không chịu nói nữa! Khi nào xem tivi bé thích gì đó bé mới lặp lại! Ngoài ra gọi bé nhưng bé ko để ý! Có chỉ dạy bé nhưng bé không làm theo, thích làm theo ý mình! Xin hỏi, tôi nên đưa bé khám ở đâu ạ!"
 print(prompt)
 
 # Commented out IPython magic to ensure Python compatibility.
